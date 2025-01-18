@@ -92,6 +92,7 @@ enum EasyLoadingIndicatorType {
   ripple,
   spinningCircle,
   squareCircle,
+  spinningLines,
 }
 
 /// loading status

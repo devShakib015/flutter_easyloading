@@ -199,8 +199,8 @@ class _LoadingIndicatorState extends State<LoadingIndicator> {
           size: _size,
         );
         break;
-      default:
-        _indicator = SpinKitFadingCircle(
+      case EasyLoadingIndicatorType.spinningLines:
+        _indicator = SpinKitSpinningLines(
           color: _indicatorColor,
           size: _size,
         );
